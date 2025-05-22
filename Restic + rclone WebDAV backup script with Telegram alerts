@@ -43,12 +43,12 @@ export RESTIC_PASSWORD
 restic backup "$BACKUP_SOURCE" --hostname "$HOSTNAME" >>"$LOG_FILE" 2>&1
 
 if [[ $? -ne 0 ]]; then
-    log "❌ Restic backup failed!"
+    log "Restic backup failed!"
     send_telegram "❌ Restic backup FAILED on $HOSTNAME"
     exit 1
 fi
 
-log "✅ Backup completed."
+log "Backup completed."
 send_telegram "✅ Restic backup completed on $HOSTNAME"
 
 # === Apply retention policy ===
@@ -57,7 +57,7 @@ log "🧹 Applying retention policy: daily=$KEEP_DAILY, weekly=$KEEP_WEEKLY, mon
 
 restic forget --keep-daily $KEEP_DAILY --keep-weekly $KEEP_WEEKLY --keep-monthly $KEEP_MONTHLY --prune >>"$LOG_FILE" 2>&1
 
-log "✅ Retention policy applied."
+log "Retention policy applied."
 send_telegram "📦 Restic retention policy applied on $HOSTNAME"
 
 exit 0
