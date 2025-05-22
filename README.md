@@ -69,6 +69,7 @@ postgrey[1234]: delayed SMTP connection from mail.example.com[192.100.200.77]
 Message successfully delivered.
 ```
 ⚙️ Requirements
+```bash
 ✅ Mail-in-a-Box v60+
 🐧 Linux (Ubuntu recommended)
 🛠️ Tools: bash, curl, jq, grep, awk
