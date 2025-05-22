@@ -40,7 +40,7 @@ ARCHIVE_NAME="miab-backup-$(date +'%Y-%m-%d_%H-%M').tar.gz"
 tar -czf "/tmp/${ARCHIVE_NAME}" "$SOURCE_DIR" 2>>"$LOG_FILE"
 
 if [[ $? -ne 0 ]]; then
-    log "❌ Failed to create archive."
+    log "Failed to create archive."
     send_telegram "❌ MIAB Backup FAILED: Archive creation error on $(hostname)"
     exit 1
 fi
@@ -54,13 +54,13 @@ put /tmp/${ARCHIVE_NAME}
 EOF
 
 if [[ $? -ne 0 ]]; then
-    log "❌ SFTP upload failed."
+    log "SFTP upload failed."
     send_telegram "❌ MIAB Backup FAILED: Upload error on $(hostname)"
     rm -f "/tmp/${ARCHIVE_NAME}"
     exit 1
 fi
 
-log "✅ Backup uploaded successfully."
+log "Backup uploaded successfully."
 send_telegram "✅ MIAB Backup complete: ${ARCHIVE_NAME} uploaded to $SFTP_HOST"
 
 # Cleanup
