@@ -1,7 +1,7 @@
 📦 What’s Inside
 
 ### 📁 backup_sftp.sh  
-🔄 Backs up the `/home/user-data` directory to a remote **SFTP server**, with logging and optional rotation.  
+🔄 Backup the `/home/user-data` directory to a remote **SFTP server**, with logging and optional rotation.  
 🗄️ Ideal for off-site backups via key-authenticated SFTP targets.  
 🧹 Automatically removes old archives from the remote server.  
 📲 Sends success/failure alerts to your Telegram bot (optional).
