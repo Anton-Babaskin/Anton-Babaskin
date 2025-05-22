@@ -35,7 +35,23 @@ CHAT_ID="your_telegram_chat_id"       # Optional
 💾 Performs secure, incremental backups using **Restic + Rclone** to a WebDAV-compatible cloud (e.g. Hetzner Storage Box).  
 🔍 Includes health checks and detailed logging.  
 📆 Easily schedulable via `cron`.
+📲 Sends success/failure alerts to your Telegram bot (optional).  
+📘 Easily schedulable via `cron`.
 
+#### ⚙️ Configuration
+Before using this script, edit the variables at the top of the file:
+
+```bash
+# rclone + restic settings
+RCLONE_REMOTE="hetzner_main:arc-trading.com/restic"
+RESTIC_PASSWORD="your_secure_restic_password"
+
+# Telegram (optional)
+BOT_TOKEN="your_telegram_bot_token"
+CHAT_ID="your_telegram_chat_id"
+
+# Source and hostname
+BACKUP_SOURCE="/home/user-data"
 ---
 
 ### 🕵️ **postgrey_notify_telegram.sh**  
