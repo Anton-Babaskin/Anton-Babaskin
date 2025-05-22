@@ -54,11 +54,45 @@ CHAT_ID="your_telegram_chat_id"
 BACKUP_SOURCE="/home/user-data"
 ---
 
-### 🕵️ **postgrey_notify_telegram.sh**  
-📡 Watches Postgrey logs in real-time.  
-📲 Sends instant alerts about greylist events to your **Telegram bot**.  
-⚠️ Helps monitor legitimate sender delays and greylist efficiency.
+### 🕵️ **postgrey_notify_telegram.sh**   
+Monitors **Postgrey greylisting events** and sends real-time notifications to a Telegram bot.
 
+🔔 Sends two types of alerts:
+- ⚠️ When a sender is **greylisted** (delayed by Postgrey)
+- ✅ When the same sender **later successfully delivers** an email (passed greylisting)
+
+🚫 Duplicate alerts are avoided — the script tracks previously seen entries and passed IPs.
+
+---
+
+#### ⚙️ Configuration
+
+Edit the variables at the top of the script:
+
+```bash
+LOG_FILE="/var/log/mail.log"         # May also be /var/log/syslog depending on your system
+BOT_TOKEN="your_telegram_bot_token"  # ← Your Telegram Bot Token
+CHAT_ID="your_telegram_chat_id"      # ← Your Telegram Chat ID
+
+✅The script internally uses:
+
+/var/lib/postgrey-seen.log — tracks already-notified greylist entries
+
+/var/lib/postgrey-passed.log — tracks IPs that eventually passed greylisting
+
+⏱️ Scheduling
+Recommended cron job (every 2 minutes):
+
+*/2 * * * * /path/to/postgrey_notify_telegram.sh
+📲Examples of Telegram notifications
+
+⚠️ New greylisted sender:
+postgrey[1234]: delayed SMTP connection from mail.example.com[203.0.113.5]
+
+✅ Greylisted sender passed:
+192.0.1.2
+Message successfully delivered.
+📌 This script is ideal for keeping an eye on greylist activity and ensuring that valid senders eventually succeed. Helps you fine-tune Postgrey behavior over time.
 ---
 
 ### 📬 **add_postfix_whitelist.sh**  
