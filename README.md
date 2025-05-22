@@ -67,3 +67,19 @@ postgrey[1234]: delayed SMTP connection from mail.example.com[192.100.200.77]
 ✅ Greylisted sender passed:
 192.100.200.77
 Message successfully delivered.
+```
+⚙️ Requirements
+✅ Mail-in-a-Box v60+
+🐧 Linux (Ubuntu recommended)
+🛠️ Tools: bash, curl, jq, grep, awk
+🔐 restic, rclone — for WebDAV/cloud backups
+🤖 Telegram Bot Token + Chat ID (for notifications)
+⏲️ cron (optional, for scheduled tasks)
+```
+📄 License
+🆓 MIT License — free to use, fork, modify.
+🤝 Contributions welcome!
+
+❗ Disclaimer
+These scripts are provided as-is.
+Use with caution — especially in production environments. Always test first.
