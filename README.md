@@ -7,7 +7,7 @@ More content coming soon
 
 # 🛠️ Mail-in-a-Box / iRedMail / Zimbra Scripts
 
-A personal collection of Bash scripts I use to streamline, secure, and monitor **Mail-in-a-Box (MIAB)** servers in production.  
+A personal collection of Bash scripts I use to streamline, secure, and monitor **Mail-in-a-Box (MIAB)** / **iredMail** / **Zimbra **servers in production.  
 Everything here is field-tested in real-world infrastructure (multi-domain, Postgrey, SFTP/WebDAV backups, Telegram alerts).
 
 > 🧰 All scripts were written from scratch and adapted to suit the needs of live mail infrastructure across several companies.
