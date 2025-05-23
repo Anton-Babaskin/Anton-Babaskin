@@ -127,4 +127,4 @@ The script saves already processed entries to /var/tmp/postgrey-notify.state and
 ❗ Disclaimer
 These scripts are provided as-is.
 Use with caution — especially in production environments. Always test first.
-Custom tooling by Anton Babaskin, 2025. Inspired by best practices.
+
