@@ -1,9 +1,46 @@
-More content coming soon
+# 👋 Hi, I'm Anton Babaskin
 
+🚀 **Linux/System Engineer** | 🛠️ Infrastructure Architect | ☁️ Cloud, Email & Automation Expert  
+🌍 Istanbul → Dubai → EU | From Ukraine
 
-👋 Hi, I’m Anton Babaskin (@z3r0-gr4v1tY)  
-🧠 System Engineer / Infrastructure Architect focused on Linux-first environments, mail systems, virtualisation, monitoring and automation.  
-🌍 I manage distributed systems for trading/enterprise teams — and build tools to make admin life easier.
+---
+
+### 🧠 What I Do
+
+- 🧵 Build & scale infrastructure (Linux-first: Debian/Ubuntu, Proxmox, WireGuard)
+- 📬 Maintain high-deliverability mail clusters (Mail-in-a-Box, Rspamd, SMTP relays)
+- 🧰 Create automation scripts (Bash, Restic, rclone, Postgrey, SPF/DKIM/DMARC)
+- ☁️ Backup strategy (Backblaze, Hetzner, WebDAV, S3, off-site sync)
+- 🔐 Harden security (Fail2Ban, DNSSEC, UFW/nftables, watchdog scripts)
+
+---
+
+### 🔧 Featured Projects
+
+| Project | Description |
+|--------|-------------|
+| [`miab-scripts`](https://github.com/Anton-Babaskin/miab-scripts) | 📦 Automation tools for Mail-in-a-Box: backup, monitoring, Telegram alerts |
+| `dns-tools` (soon) | 🛡️ Scripts to audit and enforce DNS security (SPF, DMARC, DKIM, DNSSEC) |
+| `infra-deploy` (soon) | 🧱 Proxmox & Nextcloud bootstrap with ZFS snapshots and offsite backups |
+
+---
+
+### 🛠️ Tech Stack
+
+`Linux` · `Proxmox VE` · `Mail-in-a-Box` · `Postfix` · `Rspamd` · `Restic` · `rclone` · `WireGuard`  
+`SPF` · `DMARC` · `DKIM` · `DNSSEC` · `Bash` · `ZFS` · `S3` · `Backblaze B2` · `Hetzner`
+
+---
+
+### 📫 Contact
+
+📧 me@fy-consulting.net  
+🌐 [linkedin.com/in/antonbabaskin](https://linkedin.com/in/antonbabaskin) *(optional)*  
+💬 Telegram (on request)
+
+---
+
+🛠️ Custom tools, built with love. Inspired by real infra battles, make admin life easier:)
 
 # 🛠️ Mail-in-a-Box 
 
