@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Anton Babaskin
 
-🚀 **Linux/System Engineer** | 🛠️ Infrastructure Architect | ☁️ Cloud, Email & Automation Expert  
-🌍 Istanbul → Dubai → EU | From Ukraine
+🚀 **Linux/System Engineer** | 🛠️ Infrastructure Architect | ☁️ Cloud, Email   
+🌍 Istanbul → EU | From Ukraine
 
 ---
 
