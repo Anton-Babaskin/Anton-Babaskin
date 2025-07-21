@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Anton Babaskin
 
-**Linux/System Engineer** | 🛠️ Infrastructure Architect | ☁️ Cloud, Email   
+Senior SysAdmin | 🛠️ Infrastructure Architect | Linux Engineer |  
 From Ukraine
 
 ---
