@@ -1,11 +1,11 @@
 # 👋 Hi, I'm Anton Babaskin
 
-🚀 **Linux/System Engineer** | 🛠️ Infrastructure Architect | ☁️ Cloud, Email   
-🌍 Istanbul → EU | From Ukraine
+**Linux/System Engineer** | 🛠️ Infrastructure Architect | ☁️ Cloud, Email   
+From Ukraine
 
 ---
 
-### 🧠 What I Do
+### What I Do
 
 - 🧵 Build & scale infrastructure (Linux-first: Debian/Ubuntu, Proxmox, WireGuard)
 - 📬 Maintain high-deliverability mail clusters (Mail-in-a-Box, Rspamd, SMTP relays)
