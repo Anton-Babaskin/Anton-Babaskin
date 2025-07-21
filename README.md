@@ -7,21 +7,24 @@ From Ukraine
 
 ### What I Do
 
-- 🧵 Build & scale infrastructure (Linux-first: Debian/Ubuntu, Proxmox, WireGuard)
-- 📬 Maintain high-deliverability mail clusters (Mail-in-a-Box, Rspamd, SMTP relays)
-- 🧰 Create automation scripts (Bash, Restic, rclone, Postgrey, SPF/DKIM/DMARC)
+- 🧵 Build & scale infrastructure 
+- 📬 Maintain high-deliverability mail clusters (iRedMail,Zimbra,Mail-in-a-Box,Mobodoa,Exchange,SMTP relays)
+- 🧰 Create automation scripts 
 - ☁️ Backup strategy (Backblaze, Hetzner, WebDAV, S3, off-site sync)
-- 🔐 Harden security (Fail2Ban, DNSSEC, UFW/nftables, watchdog scripts)
+
 
 ---
 
 ### 🔧 Featured Projects
 
-| Project | Description |
-|--------|-------------|
-| [`miab-scripts`](https://github.com/Anton-Babaskin/miab-scripts) | 📦 Automation tools for Mail-in-a-Box: backup, monitoring, Telegram alerts |
-| `dns-tools` (soon) | 🛡️ Scripts to audit and enforce DNS security (SPF, DMARC, DKIM, DNSSEC) |
-| `infra-deploy` (soon) | 🧱 Proxmox & Nextcloud bootstrap with ZFS snapshots and offsite backups |
+| Project              | Description                                                                                  |
+|----------------------|----------------------------------------------------------------------------------------------|
+| **miab-whitelists**  | 📦 Universal Bash script to add domains & IPs to Postfix/Postgrey whitelists (MIAB servers)  |
+| **miab-scripts**     | 📦 Automation tools for Mail-in-a-Box: backup, monitoring, Telegram alerts                   |
+| **dns-tools** (soon) | 🛡️ Scripts to audit/enforce DNS security (SPF · DMARC · DKIM · DNSSEC)                      |
+| **infra-deploy** (soon) | 🧱 Proxmox & Nextcloud bootstrap with ZFS snapshots & off-site backups                   |
+
+
 
 ---
 
