@@ -35,8 +35,6 @@ From Ukraine
 ### 📫 Contact
 
 📧 me@fy-consulting.net  
-🌐 [linkedin.com/in/antonbabaskin](https://linkedin.com/in/antonbabaskin) *(optional)*  
-💬 Telegram (on request)
 
 ---
 
