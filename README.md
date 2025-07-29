@@ -1,7 +1,12 @@
-# 👋 Hi, I'm Anton Babaskin
-Anton Babaskin GitHub, by Anton Babaskin, email scripts by Anton Babaskin.
-Senior SysAdmin | 🛠️ Infrastructure Architect | Linux Engineer |  
-From Ukraine
+# 👋 Hi, I’m **Anton Babaskin**
+
+> **Official GitHub profile of Anton Babaskin**  
+> Linux & DevOps Engineer · Infrastructure Architect · Mail‑in‑a‑Box  
+> From Ukraine
+
+[![Website](https://img.shields.io/badge/website-anton--babaskin.github.io-blue)](https://anton-babaskin.github.io)  
+[![LinkedIn](https://img.shields.io/badge/linkedin-@anton--babaskin-blue)](https://www.linkedin.com/in/anton-babaskin/)  
+
 
 ---
 
@@ -19,10 +24,10 @@ From Ukraine
 
 | Project              | Description                                                                                  |
 |----------------------|----------------------------------------------------------------------------------------------|
-| **miab-whitelists**  | 📦 Universal Bash script to add domains & IPs to Postfix/Postgrey whitelists (MIAB servers)  |
-| **miab-scripts**     | 📦 Automation tools for Mail-in-a-Box: backup, monitoring, Telegram alerts                   |
-| **dns-tools** (soon) | 🛡️ Scripts to audit/enforce DNS security (SPF · DMARC · DKIM · DNSSEC)                      |
-| **infra-deploy** (soon) | 🧱 Proxmox & Nextcloud bootstrap with ZFS snapshots & off-site backups                   |
+| **miab-whitelists**  |  Universal Bash script to add domains & IPs to Postfix/Postgrey whitelists (MIAB servers)  |
+| **miab-scripts**     |  Automation tools for Mail-in-a-Box: backup, monitoring, Telegram alerts                   |
+| **dns-tools** (soon) | 🛡 Scripts to audit/enforce DNS security (SPF · DMARC · DKIM · DNSSEC)                      |
+| **infra-deploy** (soon) |  Proxmox & Nextcloud bootstrap with ZFS snapshots & off-site backups                   |
 
 
 
