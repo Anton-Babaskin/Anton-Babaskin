@@ -1,7 +1,7 @@
 # 👋 Hi, I’m **Anton Babaskin**
 
 > **Official GitHub profile of Anton Babaskin**  
-> Linux & DevOps Engineer · Infrastructure Architect · Mail‑in‑a‑Box  
+> Linux & DevOps Engineer · Infrastructure Architect ·   System Administrator
 > From Ukraine
 
 [![Website](https://img.shields.io/badge/website-anton--babaskin.github.io-blue)](https://anton-babaskin.github.io)  
