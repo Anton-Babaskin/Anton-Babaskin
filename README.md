@@ -94,11 +94,10 @@
 
 ## 📫 Contact
 
-- 🌐 **Website:** [me@fly-consulting.net](https://me@fly-consulting.net)
-- 📧 **Email:** [me@fly-consulting.net](mailto:me@fly-consulting.net)
+- 🌐 **Website**: [me@fy-consulting.net](https://me@fly-consulting.net)
+- 📧 **Email:** [me@fy-consulting.net](mailto:me@fly-consulting.net)
 - 🐙 **GitHub:** [@Anton-Babaskin](https://github.com/Anton-Babaskin)
-- 📍 **Location:** Ukraine
-
+- 📍 **Location:** Dubai
 ---
 
 <div align="center">
