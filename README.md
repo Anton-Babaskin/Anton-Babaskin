@@ -53,7 +53,7 @@
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [Neobcentray](https://github.com/Anton-Babaskin/Neobcentray) | Windows performance optimizer for cleanup, tuning, FPS improvements, latency reduction and system responsiveness | PowerShell / Batch |
+| [SysTuneX](https://github.com/Anton-Babaskin/SysTuneX) | Windows performance optimizer for cleanup, tuning, FPS improvements, latency reduction and system responsiveness | PowerShell / Batch |
 
 ---
 
