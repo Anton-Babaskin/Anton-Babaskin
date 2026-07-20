@@ -2,7 +2,11 @@
 
 # 👋 Anton Babaskin
 
-### Infrastructure Architect · Linux & DevOps Engineer · Mail Infrastructure Specialist
+### Senior DevOps Engineer · Linux Engineer · System Administrator
+
+<p>
+  Anton Babaskin is a Senior DevOps Engineer, Linux Engineer and System Administrator focused on production infrastructure, automation, observability, security and reliable operations.
+</p>
 
 <p>
   I design, operate and automate production infrastructure — with a focus on reliable Linux systems, mail platforms and practical operator tooling.
