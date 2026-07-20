@@ -1,59 +1,146 @@
-# Anton Babaskin
+<div align="center">
 
-**Senior Infrastructure Architect · Linux & DevOps Engineer · Mail Infrastructure Specialist**
+# 👋 Anton Babaskin
 
-I design, build, and operate production infrastructure, working primarily with Linux across system administration, architecture, and day-to-day production operations. I bring more than 15 years of hands-on experience maintaining reliable systems and solving practical infrastructure problems.
+### Infrastructure Architect · Linux & DevOps Engineer · Mail Infrastructure Specialist
 
-My work covers mail systems, virtualization, networks, VPNs, backup and recovery, monitoring, security, and infrastructure automation. I focus on understandable architectures, controlled changes, useful diagnostics, and operational tools that are safe to run on real systems.
+<p>
+  I design, operate and automate production infrastructure — with a focus on reliable Linux systems, mail platforms and practical operator tooling.
+</p>
 
-Website: [babaskin.dev](https://babaskin.dev/) · [LinkedIn](https://www.linkedin.com/in/anton-babaskin/) · [Telegram](https://t.me/sen1or_anykey) · [Email](mailto:i@babaskin.dev) · [DOU](https://dou.ua/users/appsklaw/)
+<p>
+  <a href="https://babaskin.dev/"><img alt="Website" src="https://img.shields.io/badge/Website-babaskin.dev-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/anton-babaskin/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Anton%20Babaskin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://t.me/sen1or_anykey"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@sen1or__anykey-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
+  <a href="mailto:i@babaskin.dev"><img alt="Email" src="https://img.shields.io/badge/Email-i%40babaskin.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
 
-## Featured projects
+<p>
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-Production-111827?style=flat-square&logo=linux&logoColor=white">
+  <img alt="MailOps" src="https://img.shields.io/badge/MailOps-Postfix%20%2F%20Dovecot-2563EB?style=flat-square">
+  <img alt="DevOps" src="https://img.shields.io/badge/DevOps-Automation-16A34A?style=flat-square">
+  <img alt="Experience" src="https://img.shields.io/badge/Experience-15%2B%20years-F59E0B?style=flat-square">
+</p>
 
-### Infrastructure and MailOps
+<p>
+  <a href="#-featured-work">Featured work</a> ·
+  <a href="#-mailops--security">MailOps & security</a> ·
+  <a href="#-automation--platforms">Automation & platforms</a> ·
+  <a href="#-operating-principles">Operating principles</a> ·
+  <a href="#-contact">Contact</a>
+</p>
 
-| Project | Description | Stack |
-|---|---|---|
-| [FleetOps](https://github.com/Anton-Babaskin/FleetOps) | Agentless Linux infrastructure diagnostics with a terminal-first CLI, deterministic health checks, SSH collection, a versioned JSON contract, and an optional Telegram interface. | Python, asyncssh, Pydantic, Docker |
-| [miab-sentry](https://github.com/Anton-Babaskin/miab-sentry) | Telegram-based MailOps control plane for diagnosing and managing Linux mail servers through whitelisted SSH commands, confirmed actions, and SQLite audit logging. | Python, SSH, Telegram, SQLite |
-| [miab-radar](https://github.com/Anton-Babaskin/miab-radar) | Terminal-based Mail-in-a-Box monitoring and audit tool for health, mail flow, deliverability, DNS, TLS, and security checks. | Bash, Postfix, Dovecot, DNS |
-| [mail-sec-audit](https://github.com/Anton-Babaskin/mail-sec-audit) | Structured, read-only-by-default security audit for Linux mail servers, covering services, exposure, authentication, DNS, TLS, firewalls, and Fail2Ban. | Bash, Linux, mail services |
-| [smtp-egress-audit](https://github.com/Anton-Babaskin/smtp-egress-audit) | Read-only incident-response tool that attributes abnormal outbound SMTP connections to processes, Postfix activity, users, jobs, or containers. | Bash, ss, tcpdump/eBPF, Postfix |
+</div>
 
-### Mail automation
+---
 
-| Project | Description | Stack |
-|---|---|---|
-| [miab-whitelists](https://github.com/Anton-Babaskin/miab-whitelists) | Postfix and Postgrey whitelist management, recursive SPF range refresh, and fleet synchronization for Mail-in-a-Box. | Bash, Postfix, Postgrey, systemd |
-| [miab-backups](https://github.com/Anton-Babaskin/miab-backups) | Mail-in-a-Box backup automation using Restic over an rclone WebDAV remote, with integrity checks, retention, and Telegram reporting. | Bash, Restic, rclone |
-| [mail_analyzer.sh](https://github.com/Anton-Babaskin/mail_analyzer.sh) | Postfix log analysis for domains, relays, routes, traffic volume, and delivery failures. | Bash, awk |
-| [Postfix-Telegram-Notifier](https://github.com/Anton-Babaskin/Postfix-Telegram-Notifier) | Real-time Telegram alerts for bounced, deferred, and rejected Postfix deliveries. | Bash, systemd, Telegram |
-| [postgrey-telegram-notify](https://github.com/Anton-Babaskin/postgrey-telegram-notify) | Stateful Telegram notifications for Postgrey greylisting events and Postfix delivery statuses, scheduled with systemd. | Bash, systemd, Telegram |
+## ⚡ What I build
 
-### Networking and systems
+I work with production Linux infrastructure end to end: architecture, day‑2 operations, incident diagnostics, mail delivery, backups, networks and automation. The repositories below are built for real operators: explicit behaviour, safe defaults and evidence before remediation.
 
-| Project | Description | Stack |
-|---|---|---|
-| [Docker-WireGuard-Monitor](https://github.com/Anton-Babaskin/Docker-WireGuard-Monitor) | Monitoring for containerized WireGuard deployments, including container, interface, handshake, and health checks with Telegram alerts. | Bash, Docker, WireGuard |
-| [WireGuard-Monitor](https://github.com/Anton-Babaskin/WireGuard-Monitor) | All-in-one monitoring and installation tooling for native WireGuard deployments on Linux. | Bash, WireGuard, systemd |
-| [proxmox-hetzner](https://github.com/Anton-Babaskin/proxmox-hetzner) | Upstream-derived automation for installing Proxmox VE on Hetzner dedicated servers from Rescue mode without KVM console access. | Shell, Proxmox VE, Hetzner, ZFS |
-| [SysTuneX](https://github.com/Anton-Babaskin/SysTuneX) | Windows 10/11 performance and latency optimization application built around measurable, transparent, and reversible changes. | .NET, PowerShell, WinAPI |
-| [Xray-easy-installer](https://github.com/Anton-Babaskin/Xray-easy-installer) | Installer and user-management tooling for Xray VLESS with REALITY, systemd integration, and firewall configuration. | Bash, Xray, systemd |
-| [sysadmins-guides](https://github.com/Anton-Babaskin/sysadmins-guides) | Practical guides for Linux operations, mail infrastructure, security, and troubleshooting. | Markdown, GitHub Pages |
+> [!TIP]
+> **Start here:** [MailOps & security](#-mailops--security) for mail-server diagnostics, or [Automation & platforms](#-automation--platforms) for fleet and infrastructure tooling.
 
-## Project map
+## 🧭 Featured work
 
-The complete repository catalog, current status, and project boundary rules are maintained in [PROJECTS.md](./PROJECTS.md). The profile selection above follows that map and highlights representative infrastructure, MailOps, automation, and systems work without duplicating project scopes.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📮 <a href="https://github.com/Anton-Babaskin/miab-sentry">miab-sentry</a></h3>
+      <p>Telegram MailOps control plane with whitelisted SSH commands, confirmed actions and SQLite audit logging.</p>
+      <img alt="Python" src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white">
+      <img alt="Telegram" src="https://img.shields.io/badge/Telegram-Bot-26A5E4?style=flat-square&logo=telegram&logoColor=white">
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛰️ <a href="https://github.com/Anton-Babaskin/FleetOps">FleetOps</a></h3>
+      <p>Agentless Linux diagnostics: deterministic checks, SSH collection, JSON contracts and optional Telegram access.</p>
+      <img alt="Python" src="https://img.shields.io/badge/Python-AsyncSSH-3776AB?style=flat-square&logo=python&logoColor=white">
+      <img alt="Docker" src="https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔐 <a href="https://github.com/Anton-Babaskin/mail-sec-audit">mail-sec-audit</a></h3>
+      <p>Read-only-by-default security audit for Linux mail servers: exposure, authentication, DNS, TLS, firewalls and Fail2Ban.</p>
+      <img alt="Bash" src="https://img.shields.io/badge/Bash-Read--only-4EAA25?style=flat-square&logo=gnubash&logoColor=white">
+      <img alt="Security" src="https://img.shields.io/badge/Security-Audit-DC2626?style=flat-square">
+    </td>
+    <td width="50%" valign="top">
+      <h3>📡 <a href="https://github.com/Anton-Babaskin/smtp-egress-audit">smtp-egress-audit</a></h3>
+      <p>Incident-response tool for attributing abnormal outbound SMTP connections to processes, Postfix, users, jobs or containers.</p>
+      <img alt="Bash" src="https://img.shields.io/badge/Bash-Linux-4EAA25?style=flat-square&logo=gnubash&logoColor=white">
+      <img alt="Postfix" src="https://img.shields.io/badge/Postfix-Forensics-336791?style=flat-square">
+    </td>
+  </tr>
+</table>
 
-## Core stack
+## 📬 MailOps & security
 
-Linux · Debian · Ubuntu · Postfix · Dovecot · Mail-in-a-Box · Docker · Proxmox VE · ZFS · Restic · rclone · WireGuard · Xray · Bash · Python · Go · PowerShell
+| Project | Purpose | Stack |
+| --- | --- | --- |
+| [📡 miab-radar](https://github.com/Anton-Babaskin/miab-radar) | Mail-in-a-Box health, mail flow, deliverability, DNS, TLS and security diagnostics. | Bash · Postfix · Dovecot |
+| [🔐 mail-sec-audit](https://github.com/Anton-Babaskin/mail-sec-audit) | Structured, read-only security posture audit for Linux mail servers. | Bash · Linux · Mail services |
+| [📤 smtp-egress-audit](https://github.com/Anton-Babaskin/smtp-egress-audit) | Evidence-first attribution of suspicious outbound SMTP activity. | Bash · `ss` · Postfix |
+| [🛡️ miab-whitelists](https://github.com/Anton-Babaskin/miab-whitelists) | Postfix/Postgrey whitelists, SPF range refresh and fleet sync for MIAB. | Bash · Postfix · systemd |
+| [💾 miab-backups](https://github.com/Anton-Babaskin/miab-backups) | Restic + rclone backup automation with verification, retention and Telegram reports. | Bash · Restic · rclone |
+| [📊 mail_analyzer.sh](https://github.com/Anton-Babaskin/mail_analyzer.sh) | Postfix log analytics for domains, relays, routes and delivery failures. | Bash · awk |
+| [🔔 Postfix-Telegram-Notifier](https://github.com/Anton-Babaskin/Postfix-Telegram-Notifier) | Real-time alerts for bounced, deferred and rejected mail. | Bash · systemd · Telegram |
+| [⏱️ postgrey-telegram-notify](https://github.com/Anton-Babaskin/postgrey-telegram-notify) | Stateful Postgrey and delivery-status notifications. | Bash · systemd · Telegram |
 
-## Contact
+## 🧰 Automation & platforms
 
-- Website: [babaskin.dev](https://babaskin.dev/)
-- GitHub: [Anton-Babaskin](https://github.com/Anton-Babaskin)
-- LinkedIn: [Anton Babaskin](https://www.linkedin.com/in/anton-babaskin/)
-- Telegram: [@sen1or_anykey](https://t.me/sen1or_anykey)
-- Email: [i@babaskin.dev](mailto:i@babaskin.dev)
-- DOU: [Anton Babaskin](https://dou.ua/users/appsklaw/)
+| Project | Purpose | Stack |
+| --- | --- | --- |
+| [🛰️ FleetOps](https://github.com/Anton-Babaskin/FleetOps) | Agentless fleet diagnostics and a terminal-first operator workflow. | Python · asyncssh · Docker |
+| [📮 miab-sentry](https://github.com/Anton-Babaskin/miab-sentry) | Controlled MailOps actions from Telegram, with an audit trail. | Python · SSH · SQLite |
+| [🔒 Docker-WireGuard-Monitor](https://github.com/Anton-Babaskin/Docker-WireGuard-Monitor) | Health monitoring for containerized WireGuard. | Bash · Docker · WireGuard |
+| [🌐 WireGuard-Monitor](https://github.com/Anton-Babaskin/WireGuard-Monitor) | Monitoring and installation tooling for native WireGuard hosts. | Bash · WireGuard · systemd |
+| [🗄️ proxmox-hetzner](https://github.com/Anton-Babaskin/proxmox-hetzner) | Rescue-mode Proxmox VE automation for Hetzner dedicated servers. | Shell · Proxmox VE · ZFS |
+| [⚙️ SysTuneX](https://github.com/Anton-Babaskin/SysTuneX) | Transparent, reversible Windows performance and latency tuning. | .NET · PowerShell · WinAPI |
+| [🚀 Xray-easy-installer](https://github.com/Anton-Babaskin/Xray-easy-installer) | Xray VLESS/REALITY installer and user management. | Bash · Xray · systemd |
+| [📚 sysadmins-guides](https://github.com/Anton-Babaskin/sysadmins-guides) | Practical notes on Linux operations, mail infrastructure and troubleshooting. | Markdown · GitHub Pages |
+
+## 🧠 Operating principles
+
+```text
+Observe → collect evidence → understand the blast radius → make a controlled change → verify
+```
+
+- 🛡️ **Safe by default** — diagnostics should not quietly rewrite a production server.
+- 🔎 **Evidence before assumptions** — logs, sockets, queues and service state come first.
+- 🧩 **Simple, inspectable tooling** — Bash and Python where they make operations clearer.
+- ♻️ **Controlled, reversible changes** — explicit actions, backups and auditable workflows.
+
+## 🧱 Core stack
+
+<p>
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=white">
+  <img alt="Debian" src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white">
+  <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white">
+  <img alt="Postfix" src="https://img.shields.io/badge/Postfix-336791?style=for-the-badge">
+  <img alt="Proxmox" src="https://img.shields.io/badge/Proxmox%20VE-E57000?style=for-the-badge&logo=proxmox&logoColor=white">
+  <img alt="WireGuard" src="https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white">
+</p>
+
+## 🗂️ Full project map
+
+The complete catalog and project boundaries live in [PROJECTS.md](./PROJECTS.md). It is the source of truth for avoiding overlapping tools and duplicate repository ideas.
+
+## 🤝 Contact
+
+<p>
+  <a href="https://babaskin.dev/">🌐 Website</a> ·
+  <a href="https://www.linkedin.com/in/anton-babaskin/">💼 LinkedIn</a> ·
+  <a href="https://t.me/sen1or_anykey">✈️ Telegram</a> ·
+  <a href="mailto:i@babaskin.dev">✉️ i@babaskin.dev</a> ·
+  <a href="https://dou.ua/users/appsklaw/">👨‍💻 DOU</a>
+</p>
+
+---
+
+<div align="center">
+  <sub>© 2026 Anton Babaskin · Building calm, observable infrastructure.</sub>
+</div>
