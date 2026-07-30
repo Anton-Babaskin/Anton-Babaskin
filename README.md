@@ -5,7 +5,7 @@
 ### Linux Engineer · DevOps Engineer · System Administrator
 
 <p>
-  Anton Babaskin is a Senior DevOps Engineer, Linux Engineer and System Administrator focused on production infrastructure, automation, observability, security and reliable operations.
+  Anton Babaskin is a DevOps Engineer, Linux Engineer and System Administrator focused on production infrastructure, automation, observability, security and reliable operations.
 </p>
 
 <p>
