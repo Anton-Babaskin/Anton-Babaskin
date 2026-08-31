@@ -13,7 +13,7 @@
 </p>
 
 <p>
-  <a href="https://babaskin.dev/"><img alt="Website" src="https://img.shields.io/badge/Website-babaskin.dev-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+  <a href="https://ant0n.dev/"><img alt="Website" src="https://img.shields.io/badge/Website-babaskin.dev-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/anton-babaskin/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Anton%20Babaskin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://t.me/sen1or_anykey"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@sen1or__anykey-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
   <a href="mailto:i@babaskin.dev"><img alt="Email" src="https://img.shields.io/badge/Email-i%40babaskin.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
