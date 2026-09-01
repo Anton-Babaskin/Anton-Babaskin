@@ -9,7 +9,7 @@
 </p>
 
 <p>
-  I design, operate and automate production infrastructure — with a focus on reliable Linux systems, mail platforms and practical operator tooling.
+  I design, operate and automate production infrastructure — with a focus on reliable Linux systems, mail platforms and practical operator tooling. I also specialise in production mail systems and enjoy building practical operator software for diagnostics, safe maintenance and incident response.
 </p>
 
 <p>
