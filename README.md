@@ -13,10 +13,10 @@
 </p>
 
 <p>
-  <a href="https://ant0n.dev/"><img alt="Website" src="https://img.shields.io/badge/Website-babaskin.dev-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+  <a href="https://ant0n.dev/"><img alt="Website" src="https://img.shields.io/badge/Website-ant0n.dev-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/anton-babaskin/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Anton%20Babaskin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://t.me/sen1or_anykey"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@sen1or__anykey-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
-  <a href="mailto:i@babaskin.dev"><img alt="Email" src="https://img.shields.io/badge/Email-i%40babaskin.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="mailto:appsklaw@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-appsklaw%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
 <p>
@@ -136,10 +136,10 @@ The complete catalog and project boundaries live in [PROJECTS.md](./PROJECTS.md)
 ## 🤝 Contact
 
 <p>
-  <a href="https://babaskin.dev/">🌐 Website</a> ·
+  <a href="https://ant0n.dev/">🌐 Website</a> ·
   <a href="https://www.linkedin.com/in/anton-babaskin/">💼 LinkedIn</a> ·
   <a href="https://t.me/sen1or_anykey">✈️ Telegram</a> ·
-  <a href="mailto:i@babaskin.dev">✉️ i@babaskin.dev</a> ·
+  <a href="mailto:appsklaw@gmail.com">✉️ appsklaw@gmail.com</a> ·
   <a href="https://dou.ua/users/appsklaw/">👨‍💻 DOU</a>
 </p>
 
